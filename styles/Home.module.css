@@ -120,6 +120,6 @@
   }
 }
 
-input[type="text"] {
+.input {
   border: 1px solid red;
 }

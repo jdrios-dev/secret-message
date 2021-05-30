@@ -17,6 +17,7 @@ export default function Home() {
     <div className={styles.container}>
       <h1>{DEFAULT_MESSAGE}</h1>
       <input
+        className={styles.input}
         type="text"
         placeholder="
       Coloca tu clave aqui"
