@@ -13,9 +13,11 @@ export default function Home() {
 
   const formatedSecret = secret.toLowerCase().replace(" ", "").trim();
 
+  console.log(formatedSecret);
+
   return (
     <div className={styles.container}>
-      <h1>{DEFAULT_MESSAGE}</h1>
+      <h1>{formatedSecret in MESSAGES ? "Lo lograste!" : DEFAULT_MESSAGE}</h1>
       <input
         className={styles.input}
         type="text"
