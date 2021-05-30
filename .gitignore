@@ -33,4 +33,4 @@ yarn-error.log*
 # vercel
 .vercel
 
-api/data.js
+/api/data.js
